@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    
+    
+    <bean class="com.sufi.core.beans.Student" id="stdId">
+        <property name="stuid" value ="101"/>
+        <property name="name" value ="Sufiyan"/>
+        <property name="address" value ="Noida"/>
+    </bean>
+    
+     <bean class="com.sufi.core.beans.Student" id="stdId1">
+        <property name="stuid" value ="102"/>
+        <property name="name" value ="Khan"/>
+        <property name="address" value ="Kanpur"/>
+    </bean>
+    
+</beans>
